@@ -132,8 +132,16 @@ header .container::after{
   bottom: 0;
 }
 /* hna m2as el sora el hegiht btzbot el sora 3n el width */
-header .logo img{
-height: 40px;
+header .logo{
+  color: rgb(0, 145, 255);
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 7px;
+    border: 1px solid rgb(86, 21, 238);
+    text-decoration: none;
+ 
 }
 
 header nav{
@@ -598,7 +606,7 @@ bottom:-100px;
      }
 
 
-     .portfolio .more{
+     .portfolio <button>{
        background-color: var(--transparent-color);
        color: wheat;
        padding: 15px 20px;
@@ -1225,8 +1233,9 @@ max-width: 100%;
 .footer .container {
   position: relative;
 }
-.footer img {
+.footer h2 {
   margin-bottom: 20px;
+  font-size: 80px;
 }
 .footer p:not(.copyright) {
   text-transform: uppercase;
